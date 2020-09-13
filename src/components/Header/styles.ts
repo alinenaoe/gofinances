@@ -5,7 +5,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #5636d3;
+  background: #4c5c68;
   padding: 30px 0;
 
   header {
@@ -30,6 +30,11 @@ export const Container = styled.div<ContainerProps>`
         &:hover {
           opacity: 0.6;
         }
+      }
+
+      .current-page {
+        border-bottom: 1px solid #ff872c;
+        padding-bottom: 8px;
       }
     }
   }
